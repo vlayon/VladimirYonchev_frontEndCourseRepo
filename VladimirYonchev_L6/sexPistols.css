@@ -1,0 +1,38 @@
+body {
+	font-size: 12px;
+	font-family: Arial;
+	
+
+}
+
+a {
+	color:red;
+}
+
+h2 {
+	color: red;
+}
+
+li a {
+	text-transform: uppercase;
+	color:blue;
+}
+
+a.biggerGreen {
+	font-size: 20px;
+	color: green;
+}
+
+.bolded {
+	font-weight: bold;
+}
+
+.blueButton {
+	background-color: blue;
+	color:white;
+}
+
+.footer{
+	position: absolute;
+	bottom:30px;
+}
