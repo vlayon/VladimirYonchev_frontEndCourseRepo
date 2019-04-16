@@ -1,4 +1,4 @@
-body {
+* {
 box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ box-sizing: border-box;
 
 .flex-item {
 	height: 100px;
-	flex-basis: 100px;
+	flex-basis: 25%;
 	border: 5px solid grey;
 	background: black;
 	color: white;
@@ -35,6 +35,6 @@ box-sizing: border-box;
 	   align-items: center;
 		
 	}
-	#screen div {
-		text
+	div.flex-item.grey {
+		background-color: #666699;
 	}
