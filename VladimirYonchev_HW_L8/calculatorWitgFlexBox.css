@@ -16,7 +16,7 @@ box-sizing: border-box;
 .flex-item {
 	height: 100px;
 	flex-basis: 25%;
-	border: 5px solid grey;
+	border: 2px solid grey;
 	background: black;
 	color: white;
 	text-align: center;
@@ -36,5 +36,5 @@ box-sizing: border-box;
 		
 	}
 	div.flex-item.grey {
-		background-color: #666699;
+		background-color: lightgrey;
 	}
