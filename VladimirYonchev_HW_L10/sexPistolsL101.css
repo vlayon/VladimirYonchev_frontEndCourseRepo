@@ -1,0 +1,125 @@
+body {
+	font-size: 12px;
+	font-family: Arial;
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color:red;
+}
+
+h2 {
+	display: flex;
+	color: red;
+}
+
+nav {
+	
+	display: flex;
+	padding: 10px;
+	height: 30px;
+	margin:0 auto;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: : center;
+	justify-content: center;
+	list-style-type: none;
+	width: 900px;
+	margin:0 auto;
+	
+}
+
+li a {
+	display:flex;
+	margin:0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 8px;
+  	background-color: #dddddd;
+	
+}
+img:not(#hidden) {
+	display: flex;
+	max-width:60%;
+	max-height:60%;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+#hidden {
+	display: flex;
+
+	height: 20px;
+	visibility: hidden;
+}
+
+.centered{
+	display: flex;
+	flex-wrap:wrap;
+	overflow: auto;
+	width: 60vw;
+	padding:5px 0px 5px 0px;
+	margin: auto;
+
+}
+
+.bolded {
+	font-weight: bold;
+}
+
+.blueButton {
+	background-color: blue;
+	color:white;
+	position: absolute;
+	bottom: 700px;
+	right: 40px;
+	
+}
+
+footer{
+	margin-top: 60px;
+}
+
+
+@media (max-width: 800px) {
+/* hamburger menu:hover*/
+
+	nav ul:not(#hidden) {
+		position:relative;
+		flex-direction: column;
+		flex-basis: 20%;
+		justify-content: flex-start;
+		visibility: hidden;
+
+		}
+
+	#hidden {
+		position:absolute;
+		top: 20px;
+		right:5%;
+		visibility: visible;
+	}
+
+	img#hidden:hover ~ li {
+	visibility: visible;
+	}
+
+	.blueButton {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	text-align: center;
+	background-color: blue;
+	color:white;
+	position: fixed;
+	bottom: 1px;
+	right: 1px;
+		
+}
+
