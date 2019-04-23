@@ -63,7 +63,7 @@ img:not(#hidden) {
 	display: flex;
 	flex-wrap:wrap;
 	overflow: auto;
-	width: 60vw;
+	width: 50vw;
 	padding:5px 0px 5px 0px;
 	margin: auto;
 
@@ -85,7 +85,6 @@ img:not(#hidden) {
 footer{
 	margin-top: 60px;
 }
-
 
 @media (max-width: 800px) {
 /* hamburger menu:hover*/
@@ -120,6 +119,34 @@ footer{
 	position: fixed;
 	bottom: 1px;
 	right: 1px;
-		
-}
 
+	}
+
+}
+	
+
+	@media (min-width: 1200px) {
+
+
+		article.intro {
+			/*display: flex;*/
+			width: 40vw;
+			column-count:2;
+			column-gap:1.8rem;
+			justify-content: center;
+			
+			align-content: center;
+			margin:auto;
+
+		}
+
+		article.intro p.centered {
+			width: 20vw;
+			margin: 0 auto;
+		}
+	}	
+
+/*.grid {
+
+	grid-template-columns: repeat(2, minmax(1200px, 1fr) );
+}*/
