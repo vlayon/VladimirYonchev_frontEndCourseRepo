@@ -1,0 +1,186 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+header {
+	background: #444;
+	height: 90px;
+	
+}
+
+header div div h1 {
+	margin-top:15px;
+}
+
+.headerContainer {
+	width: 1000px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	color:white;
+	flex-basis: 30%;
+}
+
+nav {
+flex-basis: 70%;
+
+}
+
+nav ul {
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	/*align-items: center;
+	align-content: center;*/
+
+}
+
+.navLi {
+	color:white;
+	background: black;
+	padding: 10px;
+	height: 100%;
+	flex-basis: 15%;
+	list-style-type: none;
+	text-align: center;
+}
+
+.divOfFigures {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1000px;
+	margin: 50px auto;
+
+}
+
+.figure {
+	width: 215px;
+	height: 315px;
+	border: .5px solid lightgrey;
+	margin:0 15px;
+	overflow: none;
+}
+
+
+.imageFigure {
+	display: block;
+	background: black;
+	color: white;
+	width: 205;
+	height: 290px;
+	margin: 0 5px;
+	text-align: center;
+	line-height: 290px;
+
+}
+
+figcaption {
+	background: lightgrey;
+	width:205px;
+	margin:0 5px;
+	text-align: center;
+}
+
+.centeredText {
+	text-align: center;
+	
+}
+
+hr {
+	width: 50%;
+	margin: 0 auto;
+}
+.centeredText, .container {
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.container {
+	/*This containter should hold the sidebar and the div .innerContainer*/
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+.textWithPicture {
+display:flex;
+flex-direction: row;
+overflow: none;
+
+}
+
+.pic {
+	display: block;
+	background: black;
+	color: white;
+	width: 95%;
+	height: 140px;
+	margin: 5px;
+	text-align: center;
+	line-height: 150px;
+
+
+}
+
+.pictureContainer {
+	height: 150px;
+	border: .5px solid lightgrey;
+	margin:0 15px ;
+	flex-basis: 30%;
+	/*overflow: none;*/
+}
+
+.textNextToPicture {
+	flex-basis: 70%;
+	overflow: none;
+	text-align: left;
+}
+
+h3 {
+	text-align: left;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.readMore {
+
+	position:relative;
+	
+	left: 300px;
+}
+
+a {
+	color:orange;
+}
+
+.innerContainer {
+flex-basis: 65%;
+}
+
+.sidebar {
+	flex-basis: 35%;
+	height: 100%;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #818181;
+  display: block;
+  border-bottom: .5px dotted grey;
+}
+
+h3.categories {
+	text-align: center;
+	border-bottom: 0.5px solid #444;
+}
